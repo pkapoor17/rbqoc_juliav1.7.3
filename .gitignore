@@ -1,0 +1,30 @@
+# ignore text editor files
+*~
+*\#
+
+# python
+__pycache__
+*.egg-info
+*.pyc
+*.ipynb_checkpoints
+
+# latex
+*.aux
+*.bbl
+*.blg
+*Notes.bib
+*.log
+*.out
+*.pdf
+paper/.texpadtmp/
+!paper/main.pdf
+
+# ignore binaries
+*.DS_Store
+*.pages
+*.zip
+
+# ignore local files
+correspondence
+out
+_test
